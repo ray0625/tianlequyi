@@ -1,0 +1,171 @@
+body {
+    width: 100%;
+    background: url('../image/bg.png') 0 0 repeat;
+    position: relative;
+    min-width: 1000px;
+    font-family: '方正楷体简体';
+    padding-bottom: 62px;
+}
+.flower {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.flower img {
+    width: 124px;
+    height: 142px;
+}
+.sec_cont {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/***************** 头部 *****************/
+.head {
+    padding-top: 28px;
+    /*text-align: center;*/
+}
+.secondlogo {
+    width: 131px;
+    height: 100px;
+    margin-right: 10px;
+}
+.title {
+    width: 329px;
+    height: 62px;
+}
+
+/***************** 导航栏 *****************/
+.sec_navi {
+    overflow: hidden;
+    padding: 40px 0px 25px 100px;
+}
+.sec_navi p, .sec_navi h3, .sec_navi a {
+    color: #cfa567;
+    font-size: 21px;
+    float: left;
+}
+
+/***************** 图片轮换 *****************/
+.theme-default #slider{
+    margin:0px auto 10px;
+    width:1000px;
+    height:225px;
+}
+.theme-default .nivoSlider{
+    background:url("../image/second/loading.gif") no-repeat 50% 50% rgb(255, 255, 255);
+    margin-bottom:50px;
+    position:relative;
+}
+.theme-default .nivoSlider img{
+    width: 1000px;
+    height: 225px;
+    left:0px;
+    top:0px;
+    display: none; 
+    position:absolute;
+}
+
+/* nivoSlider */
+.nivo-slice{
+    height:100%;
+    display:block;
+    position:absolute;
+    z-index:5;
+}
+.nivo-box{
+    display:block;
+    position:absolute;
+    z-index:5;
+}
+
+/***************** 主体内容 *****************/
+.content {
+    width: 998px;
+    height: 990px;
+    border: 1px solid #cd914c;
+    overflow: hidden;
+    background: url('../image/second/sec_cont_bac.jpg') 0 0 repeat-x;
+}
+.content_left, .content_right {
+    float: left;
+}
+.content_left {
+    border-right: 1px solid #cd914c;
+    width: 179px;
+    height: 990px;
+    text-align: center;
+}
+.content_right {
+    width: 818px;
+}
+
+/***************** 主体内容左侧 *****************/
+.news_title {
+    font-size: 24px;
+    margin: 18px 0px 7px 0px;
+}
+.news_cont {
+    font-size: 18px;
+    margin: 6px 0px 3px 0px;
+}
+.news_title a {
+    color: #ff0000;
+}
+.news_cont a {
+    color: #b7370a;
+}
+.tel_outer {
+    overflow: hidden;
+    padding-left: 25px;
+} 
+.tel, .tel_p {
+    float: left;
+}
+.tel_p {
+    margin: 5px 0px 0px 5px;
+}
+.tel_p p {
+    width: 72px;
+    text-align: center;
+    color: #555555;
+    font-size: 12px;
+}
+.tel_style {
+    padding: 0px 0px 2px 5px;
+}
+.content_left img {
+    width: 129px;
+    height: 1px;
+}
+.content_left .content_left_first_img {
+    height: 3px;
+} 
+.content_left .tel img {
+    width: 53px;
+    height: 37px;
+}
+
+/***************** 主体内容右侧 *****************/
+.contr_top {
+    height: 47px;
+    line-height: 47px;
+    border-bottom: 1px solid #cd914c;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.contr_bot {
+    padding: 10px 0px 0px 35px;
+}
+.contr_news_title {
+    font-size: 27px;
+    font-weight: bold;
+}
+.contr_news_time {
+    margin: 10px 0px 30px;
+    font-size: 14px;
+}
+.contr_news_cont {
+    font-size: 16px;
+    text-indent: 2em;
+}
